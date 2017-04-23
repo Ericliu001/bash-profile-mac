@@ -1,4 +1,6 @@
 
+alias studio="open -a Android\ Studio ./build.gradle"
+
 alias myrepo="cd ~/Developer/Repositories/EricLiu"
 
 # Git config: add the current branch, and the status of the working directory info to the # prompt
