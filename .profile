@@ -1,7 +1,7 @@
 
 alias studio="open -a Android\ Studio ./build.gradle"
 
-alias myrepo="cd ~/Developer/Repositories/EricLiu"
+alias myrepo="cd ~/Development/Repositories/EricLiu"
 
 # Git config: add the current branch, and the status of the working directory info to the # prompt
 . ~/.git-prompt.sh
@@ -15,7 +15,7 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 # setup gradle path
-GRADLE_HOME=/Users/ericliu/Developer/Android/gradle-2.5;
+GRADLE_HOME=/Users/ericliu/Development/Android/gradle-2.5;
 export GRADLE_HOME
 export PATH=$PATH:$GRADLE_HOME/bin
 
@@ -33,13 +33,13 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home
 export PATH=$PATH:/Users/ericliu/Library/Android/sdk/platform-tools
 
 # The next line enables shell command completion for gcloud.
-source '/Users/ericliu/Developer/Cloud/google-cloud-sdk/completion.bash.inc'
+source '/Users/ericliu/Development/Cloud/google-cloud-sdk/completion.bash.inc'
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/Users/ericliu/Developer/Cloud/google-cloud-sdk/path.bash.inc'
+source '/Users/ericliu/Development/Cloud/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
-source '/Users/ericliu/Developer/Cloud/google-cloud-sdk/completion.bash.inc'
+source '/Users/ericliu/Development/Cloud/google-cloud-sdk/completion.bash.inc'
 
 # Setting PATH for Python 2.7
 # The original version is saved in .profile.pysave
